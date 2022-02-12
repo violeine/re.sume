@@ -1,219 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <head>
+    <title>re.sume</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./tailwind.css" rel="stylesheet" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Lato:wght@300;400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
-</head>
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✍️</text></svg>"
+    />
+  </head>
 
-<body>
-    <main class="container">
-        <div class="about">
-            <div class="me">
-                <!-- <figure class="avatar">
-                    <div>
-                     λ
-                    </div>
-                </figure> -->
-                <h1>About me</h1>
-                <div class="me-birth">
-                    <div class="i-cake">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M21 15.546c-.523 0-1.046.151-1.5.454a2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.704 2.704 0 00-3 0 2.704 2.704 0 01-3 0 2.701 2.701 0 00-1.5-.454M9 6v2m3-2v2m3-2v2M9 3h.01M12 3h.01M15 3h.01M21 21v-7a2 2 0 00-2-2H5a2 2 0 00-2 2v7h18zm-3-9v-2a2 2 0 00-2-2H8a2 2 0 00-2 2v2h12z" />
-                        </svg>
-                    </div>
-
-                    <span>20/3/2000</span>
-                </div>
-                <div class="me-birth">
-                    <div class="i-cake">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                        </svg>
-                    </div>
-                    <span>Ho Chi Minh City, Viet Nam</span>
-                </div>
-                <p class="me-desc">Have been doing competitive coding since grade 8
-                    plus having interest in design and UX, I am
-                    confident of my ability to adapt with new thing quickly and try the best to deliver an interactive user experience .</p>
-            </div>
-            <div class="contact">
-                <h1>Contact</h1>
-                <div class="contact-div">
-                    <div class="contact-i">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                        </svg>
-                    </div>
-                    <a href="mailto:haluudang@gmail.com" class="contact-p">haluudang@gmail.com</a>
-                </div>
-                <div class="contact-div">
-                    <div class="contact-i">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                            <path
-                                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
-                        </svg>
-                    </div>
-                    <a href="https://github.com/violeine" class="contact-p">violeine</a>
-                </div>
-
-                <div class="contact-div">
-                    <div class="contact-i">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                            <path
-                                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                        </svg>
-                    </div>
-                    <a href="https://www.linkedin.com/in/h%C3%A0-l%C6%B0u-%C4%91%C4%83ng-0b2a7a167/" class="contact-p">haluudang</a>
-                </div>
-                <div class="contact-div">
-                    <div class="contact-i">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
-                                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
-                    </div>
-                    <a href="#" class="contact-p">0357095092</a>
-                </div>
-
-            </div>
-            <div class="education">
-                <h1>Education</h1>
-                <div class="education-card">
-                    <div class="education-line">
-                        <div class="education-i">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="#368091" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path fill="#fff" d="M12 14l9-5-9-5-9 5 9 5z" />
-                                <path fill="#fff"
-                                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-                            </svg>
-                        </div>
-                        <div class="education-name">University of Information Technology</div>
-                    </div>
-                    <div class="education-class">Network and Communication</div>
-                    <div class="education-year">2018-now</div>
-                </div>
-                <div class="education-card">
-                    <div class="education-line">
-                        <div class="education-i">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="#368091" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path fill="#fff" d="M12 14l9-5-9-5-9 5 9 5z" />
-                                <path fill="#fff"
-                                    d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
-                            </svg>
-                        </div>
-                        <div class="education-name">Gia Định High School</div>
-                    </div>
-                    <div class="education-class">CS specialized Class</div>
-                    <div class="education-year">2015-2018</div>
-                </div>
-            </div>
+  <body>
+    <main class="my-0 mx-auto max-w-3xl px-12 py-16 font-light">
+      <header class="flex items-center border-b pb-4">
+        <div>
+          <h1 class="text-3xl">lưu đăng hà</h1>
+          <h2 class="text-gray-600">front-end engineer.</h2>
         </div>
-        <div class="project">
-            <div class="title">
-                <h1 class="name">Lưu Đăng Hà</h1>
-                <h2 class="position">front end developer</h2>
-            </div>
-            <div class="main">
-                <!-- <div class="objective">
-                    <h1>objective</h1>
-                    <p>Want to emerge myself into a professional working environment. Use the best of my ability to
-                        adapt and work with others as a team. Through this internship, I hope to be a part of a greater
-                        picture with my experience earned.</p>
-                </div> -->
-                <div class="projects">
-                    <h1>projects</h1>
-                    <div class="project-single">
-                        <div class="project-namedate">
-                            <h2 class="project-name"> bookmart</h2>
-                            <span class="project-date"> May 20-July 20</span>
-                        </div>
-                        <a class="project-link" href=" https://github.com/violeine/bookmart-frontend ">
-                            https://github.com/violeine/bookmart-frontend </a>
-                        <span class="project-tech"> Technologies: vue, graphql, laravel, mariadb </span>
-                        <p class="project-desc"> Trying out new technologies - vue, graphql - to build a simple
-                            community based for reviewing and bookmarking your book</p>
-                    </div>
-                    <div class="project-single">
-                        <div class="project-namedate">
-                            <h2 class="project-name"> cinemart</h2>
-                            <span class="project-date">Nov 20 - Jan 21</span>
-                        </div>
-                        <a class="project-link" href=" https://github.com/violeine/cinemart-frontend ">
-                            https://github.com/violeine/cinemart-frontend </a>
-                        <span class="project-tech"> Technologies: clojure(script), reagent, reframe</span>
-                        <p class="project-desc">From the knowlegde learned in previous project, we want to challenge
-                            ourself with clojure, a modern LISP dialect.</p>
-                    </div>
-                    <div class="project-single">
-                        <div class="project-namedate">
-                            <h2 class="project-name"> savestu </h2>
-                            <span class="project-date">Dec 20 - Jan 21</span>
-                        </div>
-                        <a class="project-link" href=" https://github.com/violeine/savestu ">
-                            https://github.com/violeine/savestu </a>
-                        <span class="project-tech"> Technologies: reactnative, sqlite</span>
-                        <p class="project-desc">A simple money management app, applying knowledge about promise to use
-                            async-await for better code style.</p>
-                    </div>
-                    <div class="project-single">
-                        <div class="project-namedate">
-                            <h2 class="project-name"> 7react </h2>
-                            <span class="project-date">Jan - Feb 21</span>
-                        </div>
-                        <a class="project-link" href=" https://github.com/violeine/7react">
-                            https://github.com/violeine/7react</a>
-                        <span class="project-tech"> Technologies: react</span>
-                        <p class="project-desc">
-                            Attempting to solve 7GUIs problems with react hooks.
-                        </p>
-                    </div>
-                    <div class="project-single">
-                        <div class="project-namedate">
-                            <h2 class="project-name"> werewolf</h2>
-                            <span class="project-date">Mar 21</span>
-                        </div>
-                        <a class="project-link" href=""></a>
-                        <span class="project-tech"> Technologies: react, websocket</span>
-                        <p class="project-desc">Mentoring a team to build simple interactive chat app similar to the boardgame werewolf.</p>
-                    </div>
-                </div>
-                <div class="skill">
-                    <h1>skills</h1>
-                    <ul class="skill-tree">
-                        <li>HTML/CSS</li>
-                        <li>Tailwindcss</li>
-                        <li>Javascript</li>
-                        <li>React/Vue</li>
-                        <li>Clojure/ClojureScript</li>
-                        <li>Reagent</li>
-                        <li>Docker</li>
-                        <li>Unix commandline</li>
-                        <li>Git</li>
-                        <li>Graphql</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="ml-auto text-right text-gray-700">
+          <p>haluudang@gmail.com</p>
+          <p>+84 357 095 092</p>
+          <p>https://github.com/violeine</p>
         </div>
+      </header>
+      <div class="h-8 w-8"></div>
+      <section>
+        <p class="text-gray-700">
+          my name is
+          <span class="text-black font-normal">hà</span>,
+          <strong class="text-black font-normal">violeine</strong> is my gamer
+          tag (lole).
+        </p>
+        <p class="text-gray-700">
+          born march, noon the twentieth, midst of hồ chí minh city.
+        </p>
+        <p class="text-gray-700">do web, usually play games (mostly tbh).</p>
+      </section>
+      <div class="h-8 w-8"></div>
+      <section class="space-y-4">
+        <h1 class="text-3xl">technical skills</h1>
+        <p class="text-gray-700">
+          <span class="text-gray-900">programing languagues:</span>
+          javascript, typescript, clojure.
+          <br />
+          <span class="text-gray-900">web development:</span>
+          html, css, tailwindcss.
+          <br />
+          <span class="text-gray-900">front-end framework:</span>
+          react, nextjs.
+          <br />
+          <span class="text-gray-900">plethora of other things such as:</span>
+          nodejs, git, docker, unix, vim,...
+          <br />
+        </p>
+      </section>
+      <div class="h-8 w-8"></div>
+      <section class="space-y-4">
+        <h1 class="text-3xl">education</h1>
+        <div class="flex items-center">
+          <div>
+            <p class="text-lg">university of information technology</p>
+            <p class="text-gray-600">
+              engineer in network and communication system.
+            </p>
+            <p class="text-gray-600">gpa: 6.9/10</p>
+          </div>
+          <div class="ml-auto text-right text-gray-600">
+            <pi>national university, hồ chí minh city.</pi>
+            <p>2018-now.</p>
+          </div>
+        </div>
+        <div class="flex items-center">
+          <div>
+            <p class="text-lg">gia định highschool</p>
+            <p class="text-gray-600">specialized class in computer science.</p>
+          </div>
+          <div class="ml-auto text-right text-gray-600">
+            <p>hồ chí minh city.</p>
+            <p>2015-2018.</p>
+          </div>
+        </div>
+      </section>
+      <div class="h-8 w-8"></div>
+      <section class="space-y-4">
+        <h1 class="text-3xl">experience</h1>
+        <div class="flex">
+          <div>
+            <p class="text-lg">be group.</p>
+            <p class="text-gray-600">web engineer</p>
+            <p class="text-gray-600">
+              work on bizops, multicommunication, omni channel for managing
+              internal services at be.
+            </p>
+          </div>
+          <div class="ml-auto text-right text-gray-600">
+            <p>hồ chí minh city.</p>
+            <p>may 2021-now.</p>
+          </div>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
