@@ -10,19 +10,18 @@
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✍️</text></svg>"
     />
   </head>
-
   <body>
     <main class="my-0 mx-auto max-w-3xl px-12 py-16 font-light">
       <header class="flex items-center border-b pb-4">
-        <div>
+        <section>
           <h1 class="text-3xl">lưu đăng hà</h1>
           <h2 class="text-gray-600">front-end engineer.</h2>
-        </div>
-        <div class="ml-auto text-right text-gray-700">
+        </section>
+        <section class="ml-auto text-right text-gray-700">
           <p>haluudang@gmail.com</p>
           <p>+84 357 095 092</p>
           <p>https://github.com/violeine</p>
-        </div>
+        </section>
       </header>
       <div class="h-8 w-8"></div>
       <section>
@@ -40,17 +39,19 @@
       <div class="h-8 w-8"></div>
       <section class="space-y-4">
         <h1 class="text-3xl">technical skills</h1>
-        <p class="text-gray-700">
-          <span class="text-gray-900">programing languagues:</span>
+        <p class="text-gray-600">
+          <span class="text-gray-900 text-lg">programing languagues:</span>
           javascript, typescript, clojure.
           <br />
-          <span class="text-gray-900">web development:</span>
+          <span class="text-gray-900 text-lg">web development:</span>
           html, css, tailwindcss.
           <br />
-          <span class="text-gray-900">front-end framework:</span>
+          <span class="text-gray-900 text-lg">front-end framework:</span>
           react, nextjs.
           <br />
-          <span class="text-gray-900">plethora of other things such as:</span>
+          <span class="text-gray-900 text-lg"
+            >plethora of other things such as:</span
+          >
           nodejs, git, docker, unix, vim,...
           <br />
         </p>
@@ -58,47 +59,166 @@
       <div class="h-8 w-8"></div>
       <section class="space-y-4">
         <h1 class="text-3xl">education</h1>
-        <div class="flex items-center">
-          <div>
-            <p class="text-lg">university of information technology</p>
+        <section class="flex items-center">
+          <section>
+            <h3 class="text-xl text-gray-900">
+              university of information technology
+            </h3>
             <p class="text-gray-600">
               engineer in network and communication system.
             </p>
-            <p class="text-gray-600">gpa: 6.9/10</p>
-          </div>
-          <div class="ml-auto text-right text-gray-600">
-            <pi>national university, hồ chí minh city.</pi>
+            <!-- <p class="text-gray-600">gpa: 6.9/10</p> -->
+          </section>
+          <section class="ml-auto text-right text-gray-600">
+            <p>national university, hồ chí minh city.</p>
             <p>2018-now.</p>
-          </div>
-        </div>
-        <div class="flex items-center">
-          <div>
-            <p class="text-lg">gia định highschool</p>
+          </section>
+        </section>
+        <section class="flex items-center">
+          <section>
+            <h3 class="text-xl text-gray-900">gia định highschool</h3>
             <p class="text-gray-600">specialized class in computer science.</p>
-          </div>
-          <div class="ml-auto text-right text-gray-600">
+            <!-- <p class="text-gray-600">gpa: 6.9/10</p> -->
+          </section>
+          <section class="ml-auto text-right text-gray-600">
             <p>hồ chí minh city.</p>
             <p>2015-2018.</p>
-          </div>
-        </div>
+          </section>
+        </section>
       </section>
       <div class="h-8 w-8"></div>
       <section class="space-y-4">
         <h1 class="text-3xl">experience</h1>
-        <div class="flex">
-          <div>
-            <p class="text-lg">be group.</p>
-            <p class="text-gray-600">web engineer</p>
-            <p class="text-gray-600">
-              work on bizops, multicommunication, omni channel for managing
-              internal services at be.
-            </p>
+        <section>
+          <div class="flex items-center">
+            <section class="mb-3">
+              <h3 class="text-xl text-gray-900">begroup</h3>
+              <p class="text-gray-700 text-lg">web engineer</p>
+              <!-- <p class="text-gray-600">gpa: 6.9/10</p> -->
+            </section>
+            <section class="ml-auto text-right text-gray-600">
+              <p>may 2021-now.</p>
+            </section>
           </div>
-          <div class="ml-auto text-right text-gray-600">
-            <p>hồ chí minh city.</p>
-            <p>may 2021-now.</p>
-          </div>
-        </div>
+          <p class="max-w-prose text-gray-600">
+            working on bizops, a multicommunication, omnichannel for managing
+            most services at be.
+            <br />
+            some notable works:
+          </p>
+          <ul class="list-disc list-outside px-8">
+            <li>
+              chat center:
+              <span class="text-gray-600"
+                >maintainer, built upon websocket, helps bridge the gap of
+                communication between customers and be's services.</span
+              >
+            </li>
+            <li>
+              call center:
+              <span class="text-gray-600"
+                >main developer/maintainer, a combination between webrtc and
+                websocket to provide another way to receiving feedback from
+                customers.</span
+              >
+            </li>
+          </ul>
+        </section>
+      </section>
+      <div class="h-8 w-8"></div>
+      <section class="space-y-4">
+        <h1 class="text-3xl">projects & contributions</h1>
+        <section>
+          <ul class="list-disc list-outside">
+            <li>
+              <a
+                href="https://violeine.github.io/daphDVD"
+                class="text-xl text-blue-600 visited:text-indigo-600"
+                >daphDVD:</a
+              >
+              <span class="text-gray-600"
+                >intro screen for streamer
+                <a
+                  class="text-blue-600 visited:text-indigo-600"
+                  href="https://twitch.tv/39daph"
+                  >39daph</a
+                >
+                on twitch.tv.</span
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/violeine/in.it"
+                class="text-xl text-blue-600 visited:text-indigo-600"
+                >in.it:</a
+              >
+              <span class="text-gray-600"
+                >collection of stuff while learning generative arts.
+              </span>
+            </li>
+            <li>
+              <a
+                href="https://observablehq.com/@violeine"
+                class="text-xl text-blue-600 visited:text-indigo-600"
+                >observablehq's notebooks:</a
+              >
+              <span class="text-gray-600"
+                >for learning svgs and processing (p5.js).
+              </span>
+            </li>
+            <li>
+              <a
+                href="https://github.com/rakeqse"
+                class="text-xl text-blue-600 visited:text-indigo-600"
+                >rakeqse:</a
+              >
+              <span class="text-gray-600"
+                >my on-going thesis exploring application of kafka in data
+                streaming/processing.</span
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/violeine/re.sume"
+                class="text-xl text-blue-600 visited:text-indigo-600"
+                >re.sume:</a
+              >
+              <span class="text-gray-600"
+                >resume built with tailwindcss, print-ready, responsive, support
+                export to pdf through nextjs api function.</span
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/violeine/cinemart-frontend"
+                class="text-xl text-blue-600 visited:text-indigo-600"
+                >cinemart:</a
+              >
+              <span class="text-gray-600"
+                >school project, built with clojurescript, a simple movie
+                booking ticket application.</span
+              >
+            </li>
+            <li>
+              <a
+                href="https://github.com/moaijs/moai"
+                class="text-xl text-blue-600 visited:text-indigo-600"
+                >moai</a
+              >
+              &
+              <a
+                href="https://github.com/beVietnam/banhmi"
+                class="text-xl text-blue-600 visited:text-indigo-600"
+                >bánh mì:</a
+              >
+              <span class="text-gray-600"
+                >small contribution to these ui kits. the first is a small
+                components library, designed to comunicate how things work. the
+                latter is a be's design system on top of moai.
+              </span>
+            </li>
+          </ul>
+        </section>
       </section>
     </main>
   </body>

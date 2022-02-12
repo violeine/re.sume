@@ -3,8 +3,13 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
-    fontFamily: {
-      sans: ["Lexend Deca", ...defaultTheme.fontFamily.sans],
+    extend: {
+      fontFamily: {
+        sans: ["Lexend Deca", ...defaultTheme.fontFamily.sans],
+      },
+      maxWidth: {
+        "prose-80": "80ch",
+      },
     },
   },
   plugins: [],
